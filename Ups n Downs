@@ -1,0 +1,90 @@
+1
+<div id="parent">
+2
+  <div id="firstchild"></div>
+3
+  <div id="secondchild"></div>
+4
+  <div id="thirdchild"></div>
+5
+</div>
+6
+​
+7
+<style>
+8
+  body{
+9
+    background-color:#62306D;
+10
+    display: flex;
+11
+    justify-content: center;
+12
+    align-items:center;
+13
+  }
+14
+  #parent{
+15
+    width:300px;
+16
+    height:200px;
+17
+    background-color:#62306D;
+18
+    position:relative;
+19
+  }
+20
+  #firstchild{
+21
+    background-color:#F7EC7D;
+22
+    width:100px;
+23
+    height:100px;
+24
+    position:absolute;
+25
+    bottom:0px;
+26
+    border-bottom-left-radius: 50px;
+27
+    border-bottom-right-radius: 50px;
+28
+  }
+29
+  #secondchild{
+30
+    background-color:#F7EC7D;
+31
+    width:100px;
+32
+    height:100px;
+33
+    position:absolute;
+34
+    top:0px;
+35
+    left:100px;
+36
+    border-top-left-radius: 50px;
+37
+    border-top-right-radius: 50px;
+38
+  }
+39
+  #thirdchild{
+40
+    background-color:#F7EC7D;
+41
+    width:100px;
+42
+    height:100px;
+43
+    position:absolute;
+44
+    bottom:0px;
+45
+    right:0px;

@@ -1,0 +1,49 @@
+<div id="parent">
+  <div id="firstChild"></div>
+  <div id="secondChild"></div>
+  <div id="thirdChild"></div>
+</div>
+<style>
+  body{
+    background-color: #0B2429;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  #parent{
+    background-color:#0B2429;
+    width:290px;
+    height: 140px;
+    transform: rotate(140deg)
+  }
+  #firstChild{
+    width:120px;
+    height: 120px;
+    background-color:#F3AC3C;
+    border-radius:50%;
+    position: absolute;
+    bottom:3px;
+  }
+  #secondChild{
+    width:120px;
+    height: 120px;
+    background-color:#998235;
+    border-radius:50%;
+    border-bottom-left-radius:1%;
+    position: absolute;
+    bottom:10px;
+    left:85px;
+     transform: rotate(40deg)
+  }
+   #thirdChild{
+    width:115px;
+    height: 115px;
+    background-color:#F3AC3C;
+    border-radius:50%;
+    position: absolute;
+    bottom:15px;
+    right:0px;
+     border-bottom-left-radius:1%;
+     transform: rotate(40deg)
+  }
+</style>
